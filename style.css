@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.824);
+    /* background-repeat: no-repeat;
+    background-size:cover;
+    overflow: hidden; */
+  }
+  h2 {
+    color: white;
+    text-shadow: 0 0 10px cyan, 0 0 20px cyan, 0 0 40px cyan, 0 0 80px cyan,
+      0 0 160px cyan;
+    /* border: 100px;
+    border-color: rgb(0, 255, 247); */
+    letter-spacing: 4px;
+    font-size: 50px;
+    text-align: center;
+  }
+  .clock {
+    display: flex;
+  }
+  .clock div {
+    margin: 5px;
+    position: relative;
+  }
+  .clock span {
+    width: 100px;
+    height: 80px;
+    /* background-color: slateblue; */
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  .clock .text {
+    height: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px rgba(255, 0, 204, 0.671), 0 0 10px rgba(209, 1, 157, 0.708), 0 0 15px rgb(0, 255, 208), 0 0 20px rgba(0, 255, 213, 0.735),0 0 160px rgba(217, 255, 0, 0.808);
+    letter-spacing: 2px;
+
+  }
+  .clock #ampm {
+    bottom: 0;
+    position: absolute;
+    width: 90px;
+    height: 50px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0 0 10px rgb(0, 255, 128), 0 0 20px rgb(0, 255, 255),
+      0 0 40px rgb(47, 255, 238), 0 0 80px rgb(0, 242, 255),
+      0 0 160px rgba(0, 255, 238, 0.795);
+  }
+  
